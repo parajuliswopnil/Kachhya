@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/android3">
+    android:background="@drawable/androidbackground">
 
     <EditText
         android:id="@+id/emailId"
@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/emailId"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="112dp"
         android:ems="10"
         android:hint="Password"
@@ -34,8 +35,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="191dp"
+        android:backgroundTint="#004080"
         android:text="LOGIN"
-        android:textColor="#009999"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textColor="#006600"
+        android:textSize="18sp" />
 </RelativeLayout>

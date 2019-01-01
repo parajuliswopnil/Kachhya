@@ -4,7 +4,7 @@ public class Data {
 
    private String std_id, phoneNumber;
     private String userName, emailAdd, passswd, department,semester;
-    private String day, month, year, gender,dobyear;
+    private String  year, gender;
 
 
     public void setStd_id(String std_id) {
@@ -48,21 +48,7 @@ public class Data {
         return passswd;
     }
 
-    public void setDay(String day) {
-        this.day = day;
-    }
 
-    public String getDay() {
-        return day;
-    }
-
-    public void setMonth(String month) {
-        this.month = month;
-    }
-
-    public String getMonth() {
-        return month;
-    }
 
     public void setYear(String year) {
         this.year = year;
@@ -88,13 +74,6 @@ public class Data {
         return department;
     }
 
-    public void setDobyear(String dobyear) {
-        this.dobyear = dobyear;
-    }
-
-    public String getDobyear() {
-        return dobyear;
-    }
 
     public void setSemester(String semester) {
         this.semester = semester;

@@ -30,15 +30,10 @@
         <activity android:name=".StudentSignUP"
             android:label="Student Sign Up"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".StudentSignUp2"
-            android:label="Student Sign Up2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".TeacherSignUp"
             android:label="Teacher Sign Up"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".TeacherSignUp2"
-            android:label="Teacher Sign Up 2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

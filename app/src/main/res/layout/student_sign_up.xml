@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/android4">
+    android:background="@drawable/androidbackground">
 
 
         <LinearLayout
@@ -119,67 +119,12 @@
 
 
             <TextView
-                android:id="@+id/textView4"
-                android:layout_width="73dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:text="DOB"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
-                android:id="@+id/dobdate"
-                android:layout_width="72dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:hint="Day" />
-
-        <TextView
+            <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
-            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
-                android:id="@+id/dobmonth"
-                android:layout_width="93dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:hint="Month" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
-                android:id="@+id/dobyear"
-                android:layout_width="86dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:hint="Year" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -195,16 +140,20 @@
                 android:textAlignment="center"
                 android:textSize="18sp" />
 
-            <RadioGroup
-            android:id="@+id/radioGroup"
+            <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/semester"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp">
+            android:layout_height="wrap_content" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/semester"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp">
 
                 <RadioButton
                     android:id="@+id/gendMale"
@@ -217,18 +166,19 @@
                     android:textColorLink="#000000" />
 
                 <RadioButton
+                    android:id="@+id/gendFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:outlineSpotShadowColor="#000000"
+                    android:text="Female" />
+
+                <RadioButton
                     android:id="@+id/gendOthers"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:outlineSpotShadowColor="#000000"
                     android:text="Others" />
 
-                <RadioButton
-                    android:id="@+id/gendFemale"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:outlineSpotShadowColor="#000000"
-                    android:text="Female" />
             </RadioGroup>
 
             <EditText
@@ -250,7 +200,7 @@
                 android:layout_height="57dp">
 
                 <Button
-                    android:id="@+id/submitBtn"
+                    android:id="@+id/stdsubmitBtn"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginStart="8dp"
